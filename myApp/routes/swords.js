@@ -37,7 +37,7 @@ router.put('/:id', function(req, res) {
     if (err) {
       throw err
     }
-    res.json(req.body)
+    res.json(sword)
   })
 });
 
